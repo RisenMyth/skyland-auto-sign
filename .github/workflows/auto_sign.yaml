@@ -2,8 +2,7 @@
 name: Auto Sign
 on:
   schedule:
-    - cron: '0 1 * * *'
-  workflow_dispatch:
+    - cron: '30 23 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
